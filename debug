@@ -10,3 +10,6 @@ logging.basicConfig(
 
 #makes part of a thread
 logging.debug("{} {}".format( x, y  ))
+
+
+#for further thread dev check out https://pymotw.com/3/threading/index.html
