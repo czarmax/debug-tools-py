@@ -1,0 +1,12 @@
+import logging
+
+# python debug function config
+# thread safe, as keep track of the thread
+
+logging.basicConfig(
+    level=logging.DEBUG,
+    format='[%(levelname)s] (%(threadName)-10s) %(message)s',
+)
+
+#makes part of a thread
+logging.debug("{} {}".format( x, y  ))
